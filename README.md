@@ -1,2 +1,2 @@
 # clay
-Simple demo of the [http://fvisser.nl/clay/](clay CSS preprocessor)
+Simple demo of the [clay CSS preprocessor](http://fvisser.nl/clay/)
