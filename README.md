@@ -8,4 +8,5 @@ You can refer to the official installation instructions of [clay](http://fvisser
 ## Compile and Execute
 
 To compile and execute the code, run the following command:
+
 ``` ghc -o clay clay.hs && ./clay ```
