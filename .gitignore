@@ -1,3 +1,4 @@
 clay
 *.hi
 *.o
+.DS_Store
