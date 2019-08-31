@@ -1,6 +1,9 @@
 {-# LANGUAGE OverloadedStrings #-}
 import Clay
 
+-- Colors
+darkGrey = "#555"
+
 main = putCss $
   do
     -- Basic elements
@@ -23,7 +26,7 @@ main = putCss $
 
     -- Navigation
     a ?
-      do  color "#0000cd" --mediumBlue
+      do  color mediumBlue
           textDecoration none
     ul ? 
       do  listStyleType none
@@ -38,6 +41,6 @@ main = putCss $
     -- Custom classes
     ".fullCalendar" ?
       do fontStyle italic
-         color "#555" --grey
+         color darkGrey
     ".currentWeek" ?      
       fontWeight bold
