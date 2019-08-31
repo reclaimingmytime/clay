@@ -26,7 +26,7 @@ main = putCss $
 
     -- Navigation
     a ?
-      do  color mediumBlue
+      do  color mediumblue
           textDecoration none
     ul ?
       do  listStyleType none
