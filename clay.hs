@@ -47,5 +47,6 @@ css = do
   
 
 -- Print CSS
-main = putCss css
---main = writeFile "style.css" css
+main =
+  putCss css
+  writeFile "style.css" css
