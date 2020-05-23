@@ -4,7 +4,8 @@ import Clay
 -- Colors
 darkGrey = "#555"
 
-main = putCss $
+-- Define CSS
+css =
   do
     -- Basic elements
     star ?
@@ -44,3 +45,7 @@ main = putCss $
          color darkGrey
     ".currentWeek" ?      
       fontWeight bold
+
+-- Print CSS
+main = putCss css
+--main = writeFile "style.css" css
